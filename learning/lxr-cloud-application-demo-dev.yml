@@ -4,5 +4,5 @@ eureka:
       defaultZone: http://lxr-eureka:8761/eureka/
 com:
   liaoxr:
-    test1: AAA
+    test1: demo
     test2: BBB
