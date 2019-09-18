@@ -1,7 +1,5 @@
 zuul:
+  ignored-services: '*'
   routes:
-    lxr-cloud-demo: 
-        path: /demo1/**
-    lxr-cloud-demo2: 
-        path: /demo2/**
-        stripPrefix: false
+    lxr-cloud-demo: /demo1/**
+    lxr-cloud-demo2: /demo2/**
