@@ -1,0 +1,7 @@
+zuul:
+  routes:
+    lxr-cloud-demo: 
+        path: /demo1/**
+    lxr-cloud-demo2: 
+        path: /demo2/**
+        stripPrefix: false
